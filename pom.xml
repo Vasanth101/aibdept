@@ -27,7 +27,7 @@
       <uniqueVersion>true</uniqueVersion>
       <id>mycompany</id>
       <name>mycompany</name>
-      <url>http://192.168.32.10:8081/nexus/content/repositories/mycompany//maven</url>
+      <url>http://192.168.32.10:8081/nexus/content/repositories/mycompany/</url>
       <layout>legacy</layout>
     </snapshotRepository>
  
