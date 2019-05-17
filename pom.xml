@@ -15,4 +15,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>Mycompany</id>
+      <name>Mycompany</name>
+      <url>http://192.168.32.10:8081/nexus/content/repositories/Mycomapny/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>mycompany</id>
+      <name>mycompany</name>
+      <url>http://192.168.32.10:8081/nexus/content/repositories/mycompany//maven</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+    ...
+  </distributionManagement>
 </project>
