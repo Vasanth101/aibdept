@@ -21,11 +21,11 @@
       <id>Mycompany</id>
       <name>Mycompany</name>
       <url>http://192.168.32.10:8081/nexus/content/repositories/Mycomapny/</url>
-      <layout>default</layout>
+      <layout>default12layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>mycompany</id>
+      <id>mycompany</i
       <name>mycompany</name>
       <url>http://192.168.32.10:8081/nexus/content/repositories/mycompany/</url>
       <layout>legacy</layout>
